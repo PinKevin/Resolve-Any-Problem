@@ -13,7 +13,7 @@ Error code: Wsl/Service/CreateInstance/CreateVm/ConfigureNetworking/HNS/0xffffff
    ```
    wsl --unregister Ubuntu
    ```
-   
+### --------- Penting ----------------  
 ### Pastikan PORT 53 free
 1. Akses ke **System Tools => Resource Monitor**
 2. Cek yang menggunakan **port 53** di menu **Network => Listening Port**
@@ -22,6 +22,7 @@ Error code: Wsl/Service/CreateInstance/CreateVm/ConfigureNetworking/HNS/0xffffff
    taskkill /f /pid [PID]
    ```
 4. Akses `Users/[youruser]/AppData/Local/Packages/`, lalu cari `CanonicalGroupLimitedUbuntu...`. Klik kanan folder, pilih **Properties => Advanced**, lalu centang pada *compression for the folder* dimatikan
+### --------- Penting ----------------  
 
 ### Install Ulang
 1. Jalankan
