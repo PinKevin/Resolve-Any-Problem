@@ -8,7 +8,7 @@ Pastikan punya Remote-SSH Extension di VS Code
    Host 'name'
      HostName 'external ip'
      User 'username'
-     IdentityFile 'path'
+     IdentityFile 'path/to/private/key/from/process/6'
    ```
 4. Setelah itu, buat key dengan command
    ```
