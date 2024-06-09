@@ -10,7 +10,7 @@ Pastikan punya Remote-SSH Extension di VS Code
      User 'username'
      IdentityFile 'path'
    ```
-4. Buat dengan command
+4. Setelah itu, buat key dengan command
    ```
    ssh-keygen -t rsa -f 'name' -C 'username' -b 2048
    ```
